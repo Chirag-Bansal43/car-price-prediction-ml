@@ -13,10 +13,10 @@ The model is trained on the `Cardetails.csv` dataset using **Linear Regression**
 ## 🖼️ Screenshots
 
 ### 📊 Model Training
-![Model Training](model(1).PNG)
+![Model Training](model(1).png)
 
 ### 💻 Streamlit App Interface
-![App Interface](model(2).PNG)
+![App Interface](model(2).png)
 
 ---
 
