@@ -41,11 +41,9 @@ if st.button('Predict'):
        'Mitsubishi', 'Audi', 'Volkswagen', 'BMW', 'Nissan', 'Lexus',
        'Jaguar', 'Land', 'MG', 'Volvo', 'Daewoo', 'Kia', 'Fiat', 'Force',
        'Ambassador', 'Ashok', 'Isuzu', 'Opel'],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],inplace=True)
-    
-    # Emergency patch to convert text strings into numbers before prediction
-    for col in input_data.columns:
-        if input_data[col].dtype == 'object':
-            input_data[col] = input_data[col].astype('category').cat.codes
+
+
+   input_data = input_data.apply(pd.to_numeric, errors='coerce').fillna(1)
 
     
     price_predict = model.predict(input_data)
