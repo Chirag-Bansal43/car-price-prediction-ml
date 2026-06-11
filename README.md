@@ -10,6 +10,16 @@ The model is trained on the `Cardetails.csv` dataset using **Linear Regression**
 
 ---
 
+## 🖼️ Screenshots
+
+### 📊 Model Training
+![Model Training](model(1).PNG)
+
+### 💻 Streamlit App Interface
+![App Interface](model(2).PNG)
+
+---
+
 ## ⚙️ Tech Stack
 - Python 🐍  
 - Scikit-learn  
