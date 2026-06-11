@@ -7,7 +7,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 model = pk.load(open('model.pkl','rb'))
-st.header('Develop By Umar Saadat')
 st.header('CAR PRICE PREDICTING ML MODEL')
 
 car_data = pd.read_csv('Cardetails.csv')
