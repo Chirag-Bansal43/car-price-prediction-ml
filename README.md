@@ -25,8 +25,4 @@ The model is trained on the `Cardetails.csv` dataset using **Linear Regression**
 ✅ Linear Regression-based model  
 ✅ Easy to deploy and use  
 
----
 
-## 👨‍💻 Developed By
-**Umar Saadat**  
-🎓 BS Artificial Intelligence, COMSATS University Islamabad
